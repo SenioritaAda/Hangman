@@ -1,0 +1,14 @@
+package advanced.java.hangman;
+
+
+import java.io.FileNotFoundException;
+
+public class Main {
+
+    public static void main(String[] args) throws FileNotFoundException {
+
+        GameService gameService = new GameService();
+        gameService.start();
+
+    }
+}
